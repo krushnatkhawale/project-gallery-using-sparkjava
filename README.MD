@@ -13,6 +13,7 @@ Spark Framework is a simple and expressive Java/Kotlin web framework DSL built f
 ### Write an endpoint
 ```
 import static spark.Spark.get;
+
 public class Api {
     public static void main(String[] args) {
         get("/hello", (request, response)-> "Hello world" );
