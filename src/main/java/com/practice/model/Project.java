@@ -1,4 +1,4 @@
-package com.practice.service;
+package com.practice.model;
 
 public class Project {
 
